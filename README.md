@@ -1,6 +1,7 @@
 # CataPro
+<img src="models/logo.png">
 
-Prediction of enzyme kinetic parameters is a crucial task in enzyme discovery and enzyme engineering. Here, we propose a new enzyme kinetic parameter prediction algorithm called CataPro, based on protein language models, small molecule language models, and molecular fingerprints. We collected the latest k$_{cat}$, K$_{m}$, and k$_{cat}$/K$_{m}$ data from the BRENDA and SABIO-RK databases. By clustering these data based on 0.4 protein sequence similarity, we obtained the corresponding 10-fold cross-validation datasets. CataPro was trained on these unbiased 10-fold cross-validation datasets, demonstrating superior performance compared to previous predictors in predicting k$_{cat}$, K$_{m}$, and k$_{cat}$/K$_{m}$.
+Predicting enzyme kinetic parameters is a crucial task in enzyme discovery and enzyme engineering. Here, we propose a new enzyme kinetic parameter prediction algorithm called CataPro, based on protein language models, small molecule language models, and molecular fingerprints. We collected the latest turnover number (kcat), Michaelis constant (Km), and catalytic efficiency (kcat/Km) data from the BRENDA and SABIO-RK databases. By clustering these data based on 0.4 protein sequence similarity, we obtained the corresponding 10-fold cross-validation datasets. CataPro was trained on these unbiased 10-fold cross-validation datasets, demonstrating superior performance compared to previous predictors in predicting kcat, Km, and kcat/Km.
 
 <img src="models/catapro.png">
 
