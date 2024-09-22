@@ -71,8 +71,7 @@ def GetMACCSKeys(smiles_list):
             final_values.append(fp_array.reshape(1, -1))
         final_values = np.concatenate(final_values, axis=0)
     return final_values
-
-Molt5_model = "/public/home/lzzheng/zechen/software/molt5/MolT5-main/models/molt5-base-smiles2caption/"
+    
 def get_molT5_embed(smiles_list, Molt5_model):
 
     tokenizer = T5Tokenizer.from_pretrained(Molt5_model)
