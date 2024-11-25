@@ -17,7 +17,7 @@ To run CataPro, you should create a conda environment that includes the followin
 In addition, CataPro also relies on additional pre-trained models, including [prot_t5_xl_uniref50](https://huggingface.co/Rostlab/prot_t5_xl_uniref50) and [molt5-base-smiles2caption](https://huggingface.co/laituan245/molt5-base-smiles2caption). These two models are used for extracting features from enzymes and substrates, respectively. You need to place the weights for these two pre-trained models in the `models` directory.
 
 ## Contact
-Zechen Wang, PhD, Shandong University, wangzch97@163.com</p>
+Zechen Wang, PhD, Shandong University, wangzch97@gmail.com</p>
 
 ## Usage
 ### 1. Prepare the input files for inference
