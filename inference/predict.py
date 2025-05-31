@@ -80,8 +80,10 @@ if __name__ == "__main__":
     kcat_model_dpath = f"{model_dpath}/kcat_models"
     Km_model_dpath = f"{model_dpath}/Km_models"
     act_model_dpath = f"{model_dpath}/act_models"
-    ProtT5_model = f"{model_dpath}/prot_t5_xl_uniref50/"
-    MolT5_model = f"{model_dpath}/molt5-base-smiles2caption"
+    # ProtT5_model = f"{model_dpath}/prot_t5_xl_uniref50/"
+    # MolT5_model = f"{model_dpath}/molt5-base-smiles2caption"
+    ProtT5_model = "Rostlab/prot_t5_xl_uniref50"
+    MolT5_model = "laituan245/molt5-base-smiles2caption"
 
     ezy_ids, smiles_list, dataloader = get_datasets(inp_fpath, ProtT5_model, MolT5_model)
     
